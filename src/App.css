@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body{
+  font-family: "Roboto" sans-serif !important;
+  background:snow !important;
+
+}
+
+.check{
+  position: relative;
+  background: url(whole_background.jpg) no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  margin-bottom: 0px;
+  display: inline-block;
+  color: white;
+  
+}
+
+:root{
+  --primary-while:#fff;
+}
+
+/***********************Navbar styling*******************/
+.navbar{
+  z-index: 2;
+}
+
+.logo{
+  width: 10rem;
+ 
+ 
+}
+
+/*******************************Navbar menu links******************/
+nav a.nav-link{
+  /*font-weight: 600;*/
+  letter-spacing: 0.0035rem;
+  cursor: pointer;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+
+.navbar-nav > li > a {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  color: var(--primary-while) !important; 
+  border-top: 0.1875rem solid rgba(255,255,255,0);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+  border-top: 0.1875rem solid orange;
+}
+
+.navbar-nav > li > a:hover{
+  border-top: 0.1875rem solid orange;
+}
+
+.navbar{
+  background-color:slategray;
+}
+
+/*******************************Header******************/
+.Header-wraper{
+  position: relative;
+  background: url(whole_background.jpg) no-repeat;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.mainInfo{
+  display:flex;
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  z-index: 1;
+}
+
+.mainInfo h1{
+  color: orange;
+  text-transform: uppercase;
+}
+
+
+/*************************Typed-Text/*******************************************/
+
+.typed-text{
+  font-size: 2rem;
+  color: white;
+}
+
+/*****************************Header main offer button***********************/
+.btn-main-offer{
+  border: 1px solid red ;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.62rem 0.75rem 0.75rem;
+  color: white;
+  margin:2rem;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: orange;
+}
+
+/***************************Particle JS**********************/
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+
+}
+
+
+/***************************About me styling**********************/
+
+.profile-img{
+  width:16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid orange;
+}
+
+.aboutHeading{
+  text-transform: uppercase;
+  color: orange;
+}
+
+.aboutcontent{
+  color: white;
+}
+
+
+
+
+/******************************Educational Background*****************************/
+
+
+
+.heading{
+  text-transform: uppercase;
+  color: orange;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-lg-6.col-xm-12{
+  margin-top: 1.98rem;
+}
+
+.clg1-img{
+  width: 50%;
+  border-radius: 0px;
+}
+
+.clg2-img{
+  width: 50%;
+  border-radius: 0px;
+}
+
+.clgName1{
+  color:white;
+}
+
+.insideclgname{
+  color:white;
+}
+
+
+/*********************************brand icons*********************************/
+.iconspace{
+  margin: 0.56rem;
+}
+
+.logos{
+  position: relative;
+  width: 3rem;
+  padding: 0.5rem;
+}
+
+
+
+.skillsHeading{
+  color: orange;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.col-lg-6.col-sm-12{
+  color:cyan;
+}
+
+
+/**********************Experience part****************/
+
+.experience-wrapper{
+  position: relative;
+  overflow: hidden;
+  padding: 0.7rem;
+  margin-bottom: 0px;
+}
+
+.experience h1{
+  text-transform: uppercase;
+  color:orange;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.experience-wrapper::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left:50%;
+  margin-left: -0.065rem;
+  width:0.125rem;
+  height: 100%;
+  background:darkgray;
+  z-index: 1;
+
+}
+
+.timeline-block{
+  width:calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-left{
+  float: left;
+  direction: rtl;
+}
+
+.timeline-block-right{
+  float: right;
+}
+
+.marker{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border:0.3125rem solid darkgray;
+  background: orange;
+  margin: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content{
+  width:95%;
+  padding:0 0.9375rem;
+  color:white;
+  direction: ltr;
+
+}
+
+.timelineheading{
+  color: orangered;
+}
+
