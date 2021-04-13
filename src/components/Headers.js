@@ -18,6 +18,7 @@ function Headers() {
                 loop
                 />
                 <br></br>
+                
 
                 <div className="Iconset">
                     <a target="_blank" style={{color:'darkslategrey'}} href="https://www.linkedin.com/in/ritika-joshi-4400aa23/" > <FaLinkedin  className="linkedin"  size="3rem"/> </a>
