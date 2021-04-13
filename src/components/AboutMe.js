@@ -28,8 +28,7 @@ function AboutMe() {
                 development life cycle process.Experience in working with defined agile process to 
                 deliver high quality code.</p>
                 
-                <p className="aboutcontent" data-aos="flip-left">With Background of computer software & databases , can work productively in the constantly
-                recurring technical environment.</p>
+                <p className="aboutcontent" data-aos="flip-left">With Background of computer software & databases , can work productively in the fast-paced technical environment.</p>
           </div>
          </div>    
         </div>
