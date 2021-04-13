@@ -14,7 +14,7 @@ const Contacts = () => {
 
     return (
         
-        <div id="check" className="contacts" >
+        <div id="contacts" className="contacts" >
                 <div className="text-center">
                     <h1 data-aos="fade-up">Contact me</h1>
                 </div>

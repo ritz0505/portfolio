@@ -8,7 +8,7 @@ import {Link} from "react-scroll";
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark secondary-color fixed-top">
-        <div className="container">
+        <div className="container alignment">
         {/*<a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo.."/></a>*/}
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <FontAwesomeIcon icon={faBars} style={{color : "white"}}/>
@@ -30,7 +30,10 @@ const Navbar = () => {
             </li> 
             <li className="nav-item">
             <Link smooth={true} to="Experience" offset={-110} className="nav-link" href="#">Experience</Link>
-          </li> 
+            </li> 
+            <li className="nav-item">
+            <Link smooth={true} to="contacts" offset={-110} className="nav-link" href="#">Contact</Link>
+            </li> 
           </ul> 
         </div>
 
