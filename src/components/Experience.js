@@ -2,6 +2,9 @@ import React from "react";
 import "aos/dist/aos.css";
 import Aos from "aos";
 import {useEffect} from "react";
+import { FaStar } from "react-icons/fa";
+import { FaUniversity } from "react-icons/fa";
+import { MdWork } from "react-icons/md";
 
 const Experience = () => {
 
@@ -19,7 +22,8 @@ const Experience = () => {
 
             <div data-aos="flip-left" className="container experience-wrapper">
                 <div className="timeline-block timeline-block-right">
-                    <div className="marker"></div>
+                    {/*<div className="marker"></div>*/}
+                    <div><FaUniversity size="2rem"/></div>
                         <div className="timeline-content">
                             <h4 className="timelineheading">2019-2020</h4>
                             <p data-aos="zoom-out-down" >Master Of Sciences in Computing</p>
@@ -39,7 +43,8 @@ const Experience = () => {
                 {/*******/}
 
                 <div data-aos="flip-right" className="timeline-block timeline-block-left">
-                    <div className="marker"></div>
+                    {/*<div className="marker"></div>*/}
+                    <div><MdWork size="2rem"/></div>
                         <div className="timeline-content">
                             <h4 className="timelineheading">2015-2019</h4>
                             <p data-aos="zoom-out-down" >Senior System Engineer - Infosys Limited</p>
@@ -62,7 +67,8 @@ const Experience = () => {
                 {/************/}
 
                 <div data-aos="flip-left" className="timeline-block timeline-block-right">
-                    <div className="marker"></div>
+                    {/*<div className="marker"></div>*/}
+                    <div><FaUniversity size="2rem"/></div>
                         <div className="timeline-content">
                             <h4 className="timelineheading">2011-2015</h4>
                             <p data-aos="zoom-out-down" >Bachelors of Technology in Information Technology</p>

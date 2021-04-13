@@ -25,9 +25,7 @@ function AboutMe() {
             <h1 data-aos="zoom-out-down" className="aboutHeading">About Me</h1>
                 <p className="aboutcontent" data-aos="flip-left">A competent professional with 4 years of experience in IT Industry. A resourceful and detail-oriented developer with experience
                 in software engineering. Developed product features to satisfy project & business criteria by utilising the software 
-                development life cycle process. Experience using Relational Database Management System.
-                Proficient in building object-oriented web applications using HTML5, CSS3 and Javascript-ES6 with responsive 
-                layouts. Good Knowledge of FrontEnd Framework such as React, Bootstrap. Experience in working with defined agile process to 
+                development life cycle process.Experience in working with defined agile process to 
                 deliver high quality code.</p>
                 
                 <p className="aboutcontent" data-aos="flip-left">With Background of computer software & databases , can work productively in the constantly

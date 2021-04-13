@@ -4,6 +4,10 @@ import collegeLogo2 from "../graphicera.png";
 import "aos/dist/aos.css";
 import Aos from "aos";
 import {useEffect} from "react";
+import { FaUniversity } from "react-icons/fa";
+
+import { FaStar } from "react-icons/fa";
+
 
 
 function EducationBackground() {
@@ -20,7 +24,7 @@ function EducationBackground() {
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
                     <div data-aos="flip-left" className="photo-wrap1">
-                    <img  className="clg1-img" src={collegeLogo1} alt="Masters College"></img>
+                    <FaUniversity size="3rem"/>
                     </div>
                 </div>
                 
@@ -35,7 +39,7 @@ function EducationBackground() {
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
                     <div data-aos="flip-left" className="photo-wrap2">
-                    <img className="clg2-img" src={collegeLogo2} alt="Bachelors College"></img>
+                    <FaUniversity size="3rem"/>
                     </div>
                 </div>
                 

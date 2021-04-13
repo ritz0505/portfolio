@@ -15,7 +15,7 @@ body{
   background-position: center;
   margin-bottom: 0px;
   display: inline-block;
-  color: white;
+  color: darkslategrey;
   
 }
 
@@ -54,15 +54,15 @@ nav ul li{
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
-  border-top: 0.1875rem solid orange;
+  border-top: 0.1875rem solid darkslategrey;
 }
 
 .navbar-nav > li > a:hover{
-  border-top: 0.1875rem solid orange;
+  border-top: 0.1875rem solid darkslategrey;
 }
 
 .navbar{
-  background-color:slategray;
+  background-color:lightslategrey;
 }
 
 /*******************************Header******************/
@@ -91,7 +91,7 @@ nav ul li{
 }
 
 .mainInfo h1{
-  color: orange;
+  color:midnightblue;
   text-transform: uppercase;
 }
 
@@ -100,7 +100,7 @@ nav ul li{
 
 .typed-text{
   font-size: 2rem;
-  color: white;
+  color: darkslategrey;
 }
 
 /*****************************Header main offer button***********************/
@@ -109,7 +109,7 @@ nav ul li{
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.62rem 0.75rem 0.75rem;
-  color: white;
+  color: black;
   margin:2rem;
 }
 
@@ -139,11 +139,11 @@ nav ul li{
 
 .aboutHeading{
   text-transform: uppercase;
-  color: orange;
+  color: midnightblue;
 }
 
 .aboutcontent{
-  color: white;
+  color:darkslategrey;
 }
 
 
@@ -155,7 +155,7 @@ nav ul li{
 
 .heading{
   text-transform: uppercase;
-  color: orange;
+  color: midnightblue;
   justify-content: center;
   align-items: center;
 }
@@ -175,11 +175,11 @@ nav ul li{
 }
 
 .clgName1{
-  color:white;
+  color:black;
 }
 
 .insideclgname{
-  color:white;
+  color:darkslategrey;
 }
 
 
@@ -197,15 +197,15 @@ nav ul li{
 
 
 .skillsHeading{
-  color: orange;
+  color: midnightblue;
   text-transform: uppercase;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: darkslategrey;
 }
 
 .col-lg-6.col-sm-12{
-  color:cyan;
+  color:darkslategrey;
 }
 
 
@@ -220,7 +220,7 @@ nav ul li{
 
 .experience h1{
   text-transform: uppercase;
-  color:orange;
+  color:midnightblue;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -259,7 +259,7 @@ nav ul li{
   height: 1rem;
   border-radius: 50%;
   border:0.3125rem solid darkgray;
-  background: orange;
+  background: midnightblue;
   margin: 0.625rem;
   z-index: 3;
 }
@@ -267,12 +267,12 @@ nav ul li{
 .timeline-content{
   width:95%;
   padding:0 0.9375rem;
-  color:white;
+  color:black;
   direction: ltr;
 
 }
 
 .timelineheading{
-  color: orangered;
+  color: midnightblue;
 }
 

@@ -20,8 +20,9 @@ function Headers() {
                 <br></br>
 
                 <div className="Iconset">
-                    <a target="_blank" style={{color:'cyan'}} href="https://www.linkedin.com/in/ritika-joshi-4400aa23/" > <FaLinkedin  className="linkedin"  size="3rem"/> </a>
-                    <a target="_blank" style={{color:'cyan'}} href="https://github.com/ritz0505">  <FaGithubSquare  className="github" size="3rem" /> </a>
+                    <a target="_blank" style={{color:'darkslategrey'}} href="https://www.linkedin.com/in/ritika-joshi-4400aa23/" > <FaLinkedin  className="linkedin"  size="3rem"/> </a>
+                    <a target="_blank" style={{color:'darkslategrey'}} href="https://github.com/ritz0505">  <FaGithubSquare  className="github" size="3rem" /> </a>
+                    <a target="_blank" style={{color:'darkslategrey'}} href="https://twitter.com/Ritikaj60108586">  <FaTwitterSquare  className="github" size="3rem" /> </a>
                 </div>
                 
             </div>

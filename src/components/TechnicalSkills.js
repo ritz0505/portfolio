@@ -20,7 +20,7 @@ const TechnicalSkills = () => {
     return (
         <div className="check">
         <div id="TechnicalSkills" className="container py-5">
-        <h2 data-aos="fade-up" className="skillsHeading" style={{color:"orange"}}>Technical Skills</h2>
+        <h2 data-aos="fade-up" className="skillsHeading" style={{color:"midnightblue"}}>Technical Skills</h2>
             {/**********************tools********************/}
            <div className="row">
                 <div className="col-lg-6 col-xm-12">
@@ -30,11 +30,11 @@ const TechnicalSkills = () => {
                 </div>
                 
                 <div data-aos="zoom-out-down" className="col-lg-6 col-sm-12"> 
-                    <SiEclipseide size="2rem"/>
-                    <DiVisualstudio size="2rem"/>
-                    <SiIntellijidea size="2rem"/>
-                    <DiGithubBadge size="2rem"/>
-                    <SiJira size="2rem"/>
+                    <SiEclipseide size="3rem"/>
+                    <DiVisualstudio size="3rem"/>
+                    <SiIntellijidea size="3rem"/>
+                    <DiGithubBadge size="3rem"/>
+                    <SiJira size="3rem"/>
                 </div>
                 
             </div> 
@@ -51,11 +51,11 @@ const TechnicalSkills = () => {
                 </div>
                 
                 <div data-aos="zoom-out-down" className="col-lg-6 col-sm-12"> 
-                    <AiFillHtml5 size="2rem"/>
-                    <DiCss3 size="2rem"/>
-                    <DiJava size="2rem"/>
-                    <DiJavascript1 size="2rem"/>
-                    <DiPython size="2rem" />
+                    <AiFillHtml5 size="3rem"/>
+                    <DiCss3 size="3rem"/>
+                    <DiJava size="3rem"/>
+                    <DiJavascript1 size="3rem"/>
+                    <DiPython size="3rem" />
                 </div>
             </div>
             <br/>
@@ -70,9 +70,9 @@ const TechnicalSkills = () => {
                 </div>
                 
                 <div data-aos="zoom-out-down" className="col-lg-6 col-sm-12"> 
-                    <DiReact size="2rem"/>
-                    <DiBootstrap size="2rem"/>
-                    <SiJinja size="2rem"/>
+                    <DiReact size="3rem"/>
+                    <DiBootstrap size="3rem"/>
+                    <SiJinja size="3rem"/>
                 </div>
             </div>
             <br/>
@@ -87,8 +87,8 @@ const TechnicalSkills = () => {
                 </div>
                 
                 <div data-aos="zoom-out-down" className="col-lg-6 col-sm-12"> 
-                    <DiMysql size="2rem" />
-                    <SiOracle size="2rem"/>
+                    <DiMysql size="3rem" />
+                    <SiOracle size="3rem"/>
                 </div>
             </div>
             <br/>
@@ -103,7 +103,7 @@ const TechnicalSkills = () => {
                 </div>
                 
                 <div  data-aos="zoom-out-down" className="col-lg-6 col-sm-12"> 
-                    <DiGoogleCloudPlatform size="2rem"/>
+                    <DiGoogleCloudPlatform size="3rem"/>
                 </div>
             </div>
             <br/>
